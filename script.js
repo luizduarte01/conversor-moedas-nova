@@ -35,7 +35,7 @@ function atualizarImagemEMoeda() {
 
     const currencyImages = {
         "USD": "assets/estados-unidos (1) 1.png",
-        "EUR": "./assets/euro.png"
+        "EUR": "assets/Euro.png"
     };
 
     document.getElementById('to-currency-img').src = currencyImages[toCurrency];
